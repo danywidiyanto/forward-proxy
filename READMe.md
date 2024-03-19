@@ -35,9 +35,9 @@ This command will make a request to `https://www.google.com` through the forward
 
 1. The proxy automatically appends 'NODEJS' to the response body if it detects 'HTML' (case insensitive) in HTTP responses.
 
-## Assumptions and Constraints
+## Note
 
 - This implementation does not use any external libraries.
-- Node.js version 14 or higher is required.
+- Node.js version 14 or higher is required. This version is 20.
 - The proxy supports both HTTP and HTTPS connections.
 
